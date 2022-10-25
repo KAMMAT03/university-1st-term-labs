@@ -5,7 +5,7 @@ public class Sorting {
         int[] copy = new int[input.length];
         System.arraycopy(input, 0, copy, 0, copy.length);
         for (int i = 0; i < copy.length; ++i) {
-            for (int j = 0; j < input.length - 1; ++j) {
+            for (int j = 0; j < input.length - (1 + i); ++j) {
                 if (copy[j] > copy[j + 1]) {
                     int tmp = copy[j];
                     copy[j] = copy[j + 1];
