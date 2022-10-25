@@ -1,3 +1,5 @@
+zad.1
+
 Zmienne przyjma tylko takie wartosci, ktore sa obslugiwane przez uzyty operator przypisania.
 
 To rzutowanie nie jest zawsze konieczne, ponieważ czasem rzutowana wartosc jest obslugiwana przez wiele operatorow.
@@ -5,3 +7,7 @@ To rzutowanie nie jest zawsze konieczne, ponieważ czasem rzutowana wartosc jest
 Zmienne przyjmuja wartosci odpowiadajace wykonanym dzialaniom, np. char letter = 'a' + 1; daje wartosc "b", poniewaz dzialanie polega na przypisanu zmiennej litery o numerze o 1 wiekszym niz numer odpowiadajacy literze 'a'
 
 Problemy z liczbami zmiennoprzecinkowymi sa takie, iz gdy chcemy wprowadzic liczbe o wiekszej ilosci cyfr niz obslugiwana przez dany operator, to dokonuje sie przyblizenie i zapisanie tej liczby w postaci wykladniczej
+
+zad.2
+
+Nie, poniewaz wartosci silni potrafia osiagac ogromne wartosci, a operator int ma ograniczona liczbe wartosci ktore obsluguje (min. -2^31 i max. 2^31-1)
