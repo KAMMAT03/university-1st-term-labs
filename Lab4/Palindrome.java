@@ -2,7 +2,12 @@ import java.util.Scanner;
 
 public class Palindrome {
         public static int indeks;
-        public static void main (String[] arguments) {
+
+    public Palindrome(String a_car_boso_kokos_obraca) {
+
+    }
+
+    public static void main (String[] arguments) {
             Scanner sc = new Scanner(System.in);
             System.out.println("Podaj slowo do sprawdzenia");
             String word = sc.next();
