@@ -4,15 +4,13 @@ public class PersonalData {
     private String name;
     private String lastname;
     private long pesel;
-    private long accountNr;
-    private int pin;
+    private String city;
 
-    public PersonalData(String name, String lastname, long pesel, long accountNr, int pin) {
+    public PersonalData(String name, String lastname, long pesel, String city) {
         this.name = name;
         this.lastname = lastname;
         this.pesel = pesel;
-        this.accountNr = accountNr;
-        this.pin = pin;
+        this.city = city;
     }
 
     public String getName() {
@@ -39,19 +37,11 @@ public class PersonalData {
         this.pesel = pesel;
     }
 
-    public long getAccountNr() {
-        return accountNr;
+    public String getCity() {
+        return city;
     }
 
-    public void setAccountNr(long accountNr) {
-        this.accountNr = accountNr;
-    }
-
-    public int getPin() {
-        return pin;
-    }
-
-    public void setPin(int pin) {
-        this.pin = pin;
+    public void setCity(String city) {
+        this.city = city;
     }
 }
