@@ -1,0 +1,9 @@
+1. a) w przypadku poprawnego wczytania pliku "try" będzie miało możliwość wykonania się, zatem program wykona kolejno
+bloki try, finally(wykonuje się zawsze), toString i main.
+b) w przypadku poprawnego wczytania pliku "try" nie wykona się, zatem wykona się catch oraz finally.
+2. Try-with-resources likwiduje potrzebę implementowania fragmentu kodu odpowiedzialnego za "zamykanie",
+ponieważ zabezpiecza się automatycznym "zamykaniem".
+3.
+
+4. Testowanie dla liczb zmiennoprzecinkowych  ma sens, ponieważ  istnieje możliwość wykonania prostego dzielenia
+liczb zmiennoprzecinkowej, który mógłby zwracać np. liczbę z rozwinięciem okresowym, co kończyłoby się utratą danych.
