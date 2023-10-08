@@ -1,0 +1,19 @@
+zad.1
+
+Zmienne przyjma tylko takie wartosci, ktore sa obslugiwane przez uzyty operator przypisania.
+
+To rzutowanie nie jest zawsze konieczne, ponieważ czasem rzutowana wartosc jest obslugiwana przez wiele operatorow.
+
+Zmienne przyjmuja wartosci odpowiadajace wykonanym dzialaniom, np. char letter = 'a' + 1; daje wartosc "b", poniewaz dzialanie polega na przypisanu zmiennej litery o numerze o 1 wiekszym niz numer odpowiadajacy literze 'a'
+
+Problemy z liczbami zmiennoprzecinkowymi sa takie, iz gdy chcemy wprowadzic liczbe o wiekszej ilosci cyfr niz obslugiwana przez dany operator, to dokonuje sie przyblizenie i zapisanie tej liczby w postaci wykladniczej
+
+zad.2
+
+Nie, poniewaz wartosci silni potrafia osiagac ogromne wartosci, a operator int ma ograniczona liczbe wartosci ktore obsluguje (min. -2^31 i max. 2^31-1)
+
+zad.4
+
+Zlozonosc algorytmu oceniamy poprzez czas potrzebny na jego wykonanie: najlepsza jest, gdy czas jest najmniejszy. Najlepszy przypadek to gdy tablica jest juz na starcie posortowana, dzieki czemu algorytm nie musi wykonac zadnych czynnosci, zas najgorszy to gdy tablica jest posortowana odwrotnie.
+
+Zmiana bedzie sprawienie, ze za kazdym wykonaniem petli for z "i" druga petla z "j" bedzie sie wykonywac o jeden raz mniej, poniewaz nie musimy sprawdzac za kazdym razem konca tabeli, poniewaz jest on juz posortowany. Dzieki temu teoretycznie skracamy czas wykonania algorytmu o polowe.

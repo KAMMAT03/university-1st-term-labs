@@ -1,0 +1,18 @@
+1. W b1 operator "&" zawsze sprawdza oba argumenty, nawet jeżeli pierwszy jest fałszywy, z kolei w b2 operator "&&"
+ w przypadku gdy pierwszy argument jest fałszywy nie sprawdza już drugiego argumentu. W tym przypadku dla obu operatorów
+  oba argumenty są sprawdzane, ponieważ pierwsze argumenty są prawdziwe.
+2. W b3 operator "&" zawsze sprawdza oba argumenty, nawet jeżeli pierwszy jest fałszywy, z kolei w b4 operator "&&"
+ w przypadku gdy pierwszy argument jest fałszywy nie sprawdza już drugiego argumentu.
+3. W b5 operator "|" zawsze sprawdza oba argumenty, nawet jeżeli pierwszy jest prawdziwy, z kolei w b6 operator "||"
+ w przypadku gdy pierwszy argument jest prawdziwy nie sprawdza już drugiego argumentu.
+4. W b7 operator "|" zawsze sprawdza oba argumenty, nawet jeżeli pierwszy jest prawdziwy, z kolei w b8 operator "||"
+ w przypadku gdy pierwszy argument jest prawdziwy nie sprawdza już drugiego argumentu. W tym przypadku oba pierwsze
+  argumenty są fałszywe, wiec zarówno dla b7 i b8 sprawdzane są oba argumenty.
+5. Dla "||" druga funkcja jest wywoływana gdy pierwsza sprawdzana jest prawdziwa, ponieważ nie ma takiej potrzeby gdyż
+ na pewno całe zdanie logiczne jest już prawdziwe. Dla "&&" druga funkcja nie jest wywoływana gdy pierwsza sprawdzana
+  jest fałszywa, ponieważ nie ma takiej potrzeby gdyż na pewno całe zdanie logiczne jest już fałszywe.
+6. Efekt uboczny występuje wtedy, gdy metoda poza zwróceniem pewnej wartości ma wpływ na np. stan programu.
+7. Klasa formatter służy do formatowania, zamienia ona informacje na czytelne dla użytkownika.
+8. Przesuniecie jedynki w lewo o Integer.SIZE daje 1, ponieważ operator int obsługuje wartości o maksymalnie 32 bitach,
+ więc maksymalnym przesunięciem będzie Integer.SIZE - 1, czyli 31, a gdy przesuwamy o 32, to traktowane jest to jako
+  przesunięcie o 0.
